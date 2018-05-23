@@ -34,7 +34,8 @@ import pandas as pd
 
 # In[3]:
 
-publications = pd.read_csv("publications.tsv", sep="\t", header=0)
+#publications = pd.read_csv("publications.tsv", sep="\t", header=0)
+publications = pd.read_csv("publications.csv", header=0)
 publications
 
 
@@ -66,6 +67,7 @@ for row, item in publications.iterrows():
     
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
     html_filename = str(item.pub_date) + "-" + item.url_slug
+    #html_filename = item.url_slug
     year = item.pub_date[:4]
     
     ## YAML variables
@@ -73,7 +75,11 @@ for row, item in publications.iterrows():
     md = "---\ntitle: \""   + item.title + '"\n'
     
     md += """collection: publications"""
-    
+
+    md += """\ntype: """ + item.pub_type
+
+    md += """\nthumb: /images/pubs/""" + item.thumb
+
     md += """\npermalink: /publication/""" + html_filename
     
     if len(str(item.excerpt)) > 5:
