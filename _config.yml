@@ -12,6 +12,7 @@ title_separator          : "-"
 name                     : &name "Nicole Sultanum"
 description              : &description 
 url                      : http://localhost:4000 #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# url                      : https://nicksultanum.github.io/nicolesultanum.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nicksultanum/nicole.sultanum.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -80,11 +81,11 @@ analytics:
 author:
   name             : "Nicole Sultanum"
   avatar           : "profile.jpg"
-  bio              : "Researcher Wannabe"
+  bio              : "PhD Student @ Uoft, doing research on Data Vis + HCI for clinical text"
   location         : "Toronto, ON, Canada"
   employer         :
   googlescholar    : "https://scholar.google.ca/citations?user=Gsy-44MAAAAJ&hl=en"
-  email            :
+  email            : #nicolebs@cs.toronto.edu
   uri              :
   bitbucket        :
   codepen          :
@@ -92,7 +93,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
