@@ -12,6 +12,10 @@
   {% assign title = post.title %}
 {% endif %}
 
+
+
+
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__pubitem" itemscope itemtype="http://schema.org/CreativeWork">
   
@@ -19,12 +23,12 @@
       <p style="display:inline-block;">
         <u><img src="{{ post.thumb }}" alt="" style="float:left; width:150px;margin:0px 15px 0px 0px;"/></u>
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.citation }}</a>
-        <a href="{{ post.paperurl }}"><u><img src="/images/pdf.png" style="width:25px"></u></a>
+        <a href="{{ base_path }}{{ post.paperurl }}"><u><img src="{{ base_path }}/images/pdf.png" style="width:25px"></u></a>
       </p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+      <p>Download <a href="{{ base_path }}{{ post.paperurl }}"><u>here</u></a></p>
     {% endif %}
 
   </article>
