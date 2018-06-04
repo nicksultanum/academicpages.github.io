@@ -12,7 +12,7 @@ redirect_from:
 <!-- title: "O HAI _o/" -->
 <!-- <img src="/images/o-hai-big.jpg" style="width: 300px;"/> -->
 
-I'm a Computer Science PhD student at the [University of Toronto](http://web.cs.toronto.edu/), working with [Fanny Chevalier](https://fannychevalier.github.io/) and [Michael Brudno](http://www.cs.toronto.edu/~brudno/public/). My thesis research is on facilitating access to information trapped in clinical text using data visualization.
+I'm a Computer Science PhD student at the [University of Toronto](http://web.cs.toronto.edu/), working with [Fanny Chevalier](https://fannychevalier.github.io/) and [Michael Brudno](http://www.cs.toronto.edu/~brudno/public/). My thesis research is on facilitating access to information stored in clinical text using data visualization.
 
 My research interests generally fall on computer visual interaction – encompassing Human-Computer Interaction (HCI), Computer Graphics and Data Visualization – and its many embodiments and applications. I'm particularly interested in designing visual systems through novel user interfaces, and understanding how people interact with and think through them. I'm also keen on applied research, having worked on several distinct application domains from education and training, games, arts & design to oil & gas and medicine.
  
