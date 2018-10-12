@@ -11,13 +11,14 @@ title                    : "Nicole Sultanum"
 title_separator          : "-"
 name                     : &name "Nicole Sultanum"
 description              : &description 
-# url                      : http://localhost:4000 #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+#url                      : http://localhost:4000 #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 url                      : https://nicksultanum.github.io/web
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nicksultanum/personal_website"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
+future                   : true #shows publications set with dates in the future
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
